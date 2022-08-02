@@ -37,8 +37,45 @@ body {
 
   outline: 2px solid red;
   outline-offset: -2px;
-
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin:0;
+}
+
+.header-container{
+  display: flex;
+  align-items: center;
+ 
+}
+
+
+.site-nav{
+  display: flex;
+  gap: 50px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  
+}
+
+
+
+.contact-nav{
+  display: flex;
+  gap: 50px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+
+
+
 .logo {
     color: var(--accent-color);
     font-family: 'Raleway',sans-serif;
@@ -48,6 +85,7 @@ body {
     line-height: 1.19;
     letter-spacing: 0.03em;
     text-decoration: none;
+    margin-right: 93px;
     }
     
 .logo-accent {
@@ -69,7 +107,8 @@ body {
         line-height: 1.14;
         letter-spacing: 0.02em;
         text-decoration: none;
-    }
+        }
+
     .link:hover,
     .link:focus {
       color: var(--accent-color);
@@ -79,6 +118,17 @@ body {
         color:var(--accent-color);
         
     }
+
+
+
+    .contact-nav{
+      margin-left: auto;
+    }
+
+    
+    
+
+    
 
     .contact-nav a{
         color: var(--primary-text-color);
@@ -117,6 +167,11 @@ body {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
+
+    min-width: 152px;
+    min-height: 30px;
+    padding: 9px 31px;
+    border-radius: 4px;
   }
 
   button:hover,
@@ -135,6 +190,15 @@ body {
         line-height: 1.14;
         letter-spacing: 0.03em;
         text-transform: uppercase;
+        margin-top: 94px;
+    }
+
+    .about-container{
+      display: flex;
+    }
+    .about-list {
+      display: flex;
+      
     }
 
     
@@ -145,7 +209,11 @@ body {
         font-size: 14px;
         line-height: 1.71;
     /* or 171% */
-        letter-spacing: 0.03em;}
+        letter-spacing: 0.03em;
+       margin-top: 10px;
+       margin-bottom: 118px;
+        
+      }
 
     .address{color: #FFFFFF;
     }
@@ -160,6 +228,15 @@ body {
       letter-spacing: 0.03em;
 
      }
+
+     /*.section-grey{
+      padding-bottom: 94px;
+      }
+     .examples-list{
+      display: flex;
+      
+     
+     } */
 
     
      .section-team {
