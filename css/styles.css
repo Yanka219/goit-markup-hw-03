@@ -93,8 +93,7 @@ ul {
 .contact-nav{
   display: flex;
   gap: 50px;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  
 }
 
 .section {
@@ -243,7 +242,6 @@ ul {
         line-height: 1.14;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        margin-top: 94px;
         margin-bottom: 10px;
         text-transform: uppercase;
     }
@@ -271,7 +269,7 @@ ul {
         line-height: 1.71;
     /* or 171% */
         letter-spacing: 0.03em;
-       margin-top: 10px;
+       
        margin-bottom: 0;
         }
 
@@ -326,9 +324,7 @@ ul {
   border-radius: 0px 0px 4px 4px;
 }
 
-.foto {
-  padding-bottom: 30px;
-}
+
 
 
 
@@ -372,6 +368,15 @@ ul {
       text-align: center;
       letter-spacing: 0.03em;
 
+      
+     }
+
+     img{
+      display: block;
+     }
+
+     .div-team{
+      padding-top: 30px;
       padding-bottom: 30px;
      }
 
@@ -382,7 +387,7 @@ ul {
       padding-top: 60px;
     padding-bottom: 60px;
      }
-     .logo {
+     .logo-footer {
       color: var(--accent-color);
       font-family: 'Raleway',sans-serif;
       
@@ -393,7 +398,7 @@ ul {
 
       display: block;
       text-decoration: none;
-      margin-bottom: 20px;
+     margin-bottom: 20px; 
 
       }
       
@@ -484,6 +489,7 @@ ul {
   .work-list {
     display: flex;
     flex-wrap: wrap;
+    
 }
 .work-list a {
     text-decoration: none;
@@ -491,7 +497,7 @@ ul {
 
 .work-list li {
     margin-bottom: 30px;
-    margin-right: 26px;
+    margin-right: 30px;
 }
 
 .portfolio-li:nth-child(3n) {
@@ -512,7 +518,7 @@ ul {
     letter-spacing: 0.06em;
     text-decoration: none;
 
-    padding: 20px 24px 0px;
+   
     margin-bottom: 4px;
   }
 
@@ -524,7 +530,7 @@ ul {
 /* identical to box height, or 188% */
     letter-spacing: 0.03em;
 
-    padding: 0px 24px 20px;
+   
     
   }
 
@@ -532,4 +538,17 @@ ul {
   text-decoration: none;
  }
  
- 
+ .div-portfolio{
+  padding-top: 20px;
+  padding-right: 24px;
+  padding-bottom: 20px;
+  padding-left: 24px;
+  border-right: 1px solid #EEEEEE;
+  border-bottom: 1px solid #EEEEEE;
+  border-left: 1px solid #EEEEEE;
+ }
+
+ .work-list .portfolio-li{
+  background-color: #FFFFFF;
+  width: calc((100% - 60px) / 3);
+}
