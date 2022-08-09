@@ -546,6 +546,11 @@ ul {
   border-right: 1px solid #EEEEEE;
   border-bottom: 1px solid #EEEEEE;
   border-left: 1px solid #EEEEEE;
+
+  overflow: hidden;
+  white-space: nowrap;
+    
+    
  }
 
  .work-list .portfolio-li{
